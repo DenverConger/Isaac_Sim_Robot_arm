@@ -1,0 +1,42 @@
+[0.009s] Invoking command in '/home/denmann99/ros2_workspace/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) _=/usr/bin/env /home/denmann99/.local/bin/cmake /home/denmann99/ros2_workspace/src/gazebo_ros2_control -DCMAKE_INSTALL_PREFIX=/home/denmann99/ros2_workspace/install/gazebo_ros2_control
+[0.100s] -- The C compiler identification is GNU 11.2.0
+[0.143s] -- The CXX compiler identification is GNU 11.2.0
+[0.153s] -- Detecting C compiler ABI info
+[0.191s] -- Detecting C compiler ABI info - done
+[0.198s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.198s] -- Detecting C compile features
+[0.199s] -- Detecting C compile features - done
+[0.202s] -- Detecting CXX compiler ABI info
+[0.248s] -- Detecting CXX compiler ABI info - done
+[0.255s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.256s] -- Detecting CXX compile features
+[0.256s] -- Detecting CXX compile features - done
+[0.261s] -- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.431s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.509s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.573s] -- Added test 'lint_cmake' to check CMake code style
+[0.574s] -- Added test 'xmllint' to check XML markup files
+[0.575s] -- Configuring done
+[0.577s] -- Generating done
+[0.578s] -- Build files have been written to: /home/denmann99/ros2_workspace/build/gazebo_ros2_control
+[0.585s] Invoked command in '/home/denmann99/ros2_workspace/build/gazebo_ros2_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) _=/usr/bin/env /home/denmann99/.local/bin/cmake /home/denmann99/ros2_workspace/src/gazebo_ros2_control -DCMAKE_INSTALL_PREFIX=/home/denmann99/ros2_workspace/install/gazebo_ros2_control
+[0.586s] Invoking command in '/home/denmann99/ros2_workspace/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) _=/usr/bin/env /home/denmann99/.local/bin/cmake --build /home/denmann99/ros2_workspace/build/gazebo_ros2_control -- -j12 -l12
+[0.615s] Invoked command in '/home/denmann99/ros2_workspace/build/gazebo_ros2_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) _=/usr/bin/env /home/denmann99/.local/bin/cmake --build /home/denmann99/ros2_workspace/build/gazebo_ros2_control -- -j12 -l12
+[0.669s] Invoking command in '/home/denmann99/ros2_workspace/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) _=/usr/bin/env /home/denmann99/.local/bin/cmake --install /home/denmann99/ros2_workspace/build/gazebo_ros2_control
+[0.687s] -- Install configuration: ""
+[0.720s] -- Installing: /home/denmann99/ros2_workspace/install/gazebo_ros2_control/share/ament_index/resource_index/package_run_dependencies/gazebo_ros2_control
+[0.721s] -- Installing: /home/denmann99/ros2_workspace/install/gazebo_ros2_control/share/ament_index/resource_index/parent_prefix_path/gazebo_ros2_control
+[0.722s] -- Installing: /home/denmann99/ros2_workspace/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/ament_prefix_path.sh
+[0.722s] -- Installing: /home/denmann99/ros2_workspace/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/ament_prefix_path.dsv
+[0.723s] -- Installing: /home/denmann99/ros2_workspace/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/path.sh
+[0.723s] -- Installing: /home/denmann99/ros2_workspace/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/path.dsv
+[0.724s] -- Installing: /home/denmann99/ros2_workspace/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.bash
+[0.724s] -- Installing: /home/denmann99/ros2_workspace/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.sh
+[0.724s] -- Installing: /home/denmann99/ros2_workspace/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.zsh
+[0.725s] -- Installing: /home/denmann99/ros2_workspace/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.dsv
+[0.725s] -- Installing: /home/denmann99/ros2_workspace/install/gazebo_ros2_control/share/gazebo_ros2_control/package.dsv
+[0.726s] -- Installing: /home/denmann99/ros2_workspace/install/gazebo_ros2_control/share/ament_index/resource_index/packages/gazebo_ros2_control
+[0.726s] -- Installing: /home/denmann99/ros2_workspace/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/gazebo_ros2_controlConfig.cmake
+[0.726s] -- Installing: /home/denmann99/ros2_workspace/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/gazebo_ros2_controlConfig-version.cmake
+[0.727s] -- Installing: /home/denmann99/ros2_workspace/install/gazebo_ros2_control/share/gazebo_ros2_control/package.xml
+[0.745s] Invoked command in '/home/denmann99/ros2_workspace/build/gazebo_ros2_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) _=/usr/bin/env /home/denmann99/.local/bin/cmake --install /home/denmann99/ros2_workspace/build/gazebo_ros2_control

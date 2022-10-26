@@ -1,0 +1,267 @@
+[0.260s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.260s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fe45f4dbf70>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fe45fe453f0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fe45fe453f0>>)
+[0.294s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.294s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.294s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.294s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.294s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.294s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.294s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/denmann99/ros2_workspace'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(ebamk2_description) by extensions ['ignore', 'ignore_ament_install']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(ebamk2_description) by extension 'ignore'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(ebamk2_description) by extension 'ignore_ament_install'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(ebamk2_description) by extensions ['colcon_pkg']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(ebamk2_description) by extension 'colcon_pkg'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(ebamk2_description) by extensions ['colcon_meta']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(ebamk2_description) by extension 'colcon_meta'
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(ebamk2_description) by extensions ['ros']
+[0.302s] Level 1:colcon.colcon_core.package_identification:_identify(ebamk2_description) by extension 'ros'
+[0.304s] DEBUG:colcon.colcon_core.package_identification:Package 'ebamk2_description' with type 'ros.catkin' and name 'ebamk2_description'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(ebamk2_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(ebamk2_moveit_config) by extension 'ignore'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(ebamk2_moveit_config) by extension 'ignore_ament_install'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(ebamk2_moveit_config) by extensions ['colcon_pkg']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(ebamk2_moveit_config) by extension 'colcon_pkg'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(ebamk2_moveit_config) by extensions ['colcon_meta']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(ebamk2_moveit_config) by extension 'colcon_meta'
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(ebamk2_moveit_config) by extensions ['ros']
+[0.304s] Level 1:colcon.colcon_core.package_identification:_identify(ebamk2_moveit_config) by extension 'ros'
+[0.305s] DEBUG:colcon.colcon_core.package_identification:Package 'ebamk2_moveit_config' with type 'ros.catkin' and name 'ebamk2_moveit_config'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_isaac) by extensions ['ignore', 'ignore_ament_install']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_isaac) by extension 'ignore'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_isaac) by extension 'ignore_ament_install'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_isaac) by extensions ['colcon_pkg']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_isaac) by extension 'colcon_pkg'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_isaac) by extensions ['colcon_meta']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_isaac) by extension 'colcon_meta'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_isaac) by extensions ['ros']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_isaac) by extension 'ros'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_isaac) by extensions ['cmake', 'python']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_isaac) by extension 'cmake'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_isaac) by extension 'python'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_isaac) by extensions ['python_setup_py']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_isaac) by extension 'python_setup_py'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_isaac/ebamk2) by extensions ['ignore', 'ignore_ament_install']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_isaac/ebamk2) by extension 'ignore'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_isaac/ebamk2) by extension 'ignore_ament_install'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_isaac/ebamk2) by extensions ['colcon_pkg']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_isaac/ebamk2) by extension 'colcon_pkg'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_isaac/ebamk2) by extensions ['colcon_meta']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_isaac/ebamk2) by extension 'colcon_meta'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_isaac/ebamk2) by extensions ['ros']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_isaac/ebamk2) by extension 'ros'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_isaac/ebamk2) by extensions ['cmake', 'python']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_isaac/ebamk2) by extension 'cmake'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_isaac/ebamk2) by extension 'python'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_isaac/ebamk2) by extensions ['python_setup_py']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_isaac/ebamk2) by extension 'python_setup_py'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_isaac/ebamk2_mesh_all_mimic) by extensions ['ignore', 'ignore_ament_install']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_isaac/ebamk2_mesh_all_mimic) by extension 'ignore'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_isaac/ebamk2_mesh_all_mimic) by extension 'ignore_ament_install'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_isaac/ebamk2_mesh_all_mimic) by extensions ['colcon_pkg']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_isaac/ebamk2_mesh_all_mimic) by extension 'colcon_pkg'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_isaac/ebamk2_mesh_all_mimic) by extensions ['colcon_meta']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_isaac/ebamk2_mesh_all_mimic) by extension 'colcon_meta'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_isaac/ebamk2_mesh_all_mimic) by extensions ['ros']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_isaac/ebamk2_mesh_all_mimic) by extension 'ros'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_isaac/ebamk2_mesh_all_mimic) by extensions ['cmake', 'python']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_isaac/ebamk2_mesh_all_mimic) by extension 'cmake'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_isaac/ebamk2_mesh_all_mimic) by extension 'python'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_isaac/ebamk2_mesh_all_mimic) by extensions ['python_setup_py']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_isaac/ebamk2_mesh_all_mimic) by extension 'python_setup_py'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_isaac/ebamk2_mesh_no_mimic) by extensions ['ignore', 'ignore_ament_install']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_isaac/ebamk2_mesh_no_mimic) by extension 'ignore'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_isaac/ebamk2_mesh_no_mimic) by extension 'ignore_ament_install'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_isaac/ebamk2_mesh_no_mimic) by extensions ['colcon_pkg']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_isaac/ebamk2_mesh_no_mimic) by extension 'colcon_pkg'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_isaac/ebamk2_mesh_no_mimic) by extensions ['colcon_meta']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_isaac/ebamk2_mesh_no_mimic) by extension 'colcon_meta'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_isaac/ebamk2_mesh_no_mimic) by extensions ['ros']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_isaac/ebamk2_mesh_no_mimic) by extension 'ros'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_isaac/ebamk2_mesh_no_mimic) by extensions ['cmake', 'python']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_isaac/ebamk2_mesh_no_mimic) by extension 'cmake'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_isaac/ebamk2_mesh_no_mimic) by extension 'python'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_isaac/ebamk2_mesh_no_mimic) by extensions ['python_setup_py']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_isaac/ebamk2_mesh_no_mimic) by extension 'python_setup_py'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extensions ['ignore', 'ignore_ament_install']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extension 'ignore'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extension 'ignore_ament_install'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extensions ['colcon_pkg']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extension 'colcon_pkg'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extensions ['colcon_meta']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extension 'colcon_meta'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extensions ['ros']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_ros2_control) by extension 'ros'
+[0.309s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gazebo_ros2_control' with type 'ros.ament_cmake' and name 'gazebo_ros2_control'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(udrf) by extensions ['ignore', 'ignore_ament_install']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(udrf) by extension 'ignore'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(udrf) by extension 'ignore_ament_install'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(udrf) by extensions ['colcon_pkg']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(udrf) by extension 'colcon_pkg'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(udrf) by extensions ['colcon_meta']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(udrf) by extension 'colcon_meta'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(udrf) by extensions ['ros']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(udrf) by extension 'ros'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(udrf) by extensions ['cmake', 'python']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(udrf) by extension 'cmake'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(udrf) by extension 'python'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(udrf) by extensions ['python_setup_py']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(udrf) by extension 'python_setup_py'
+[0.309s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.309s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.309s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.309s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.309s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.331s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.331s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.337s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 310 installed packages in /opt/ros/humble
+[0.338s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'ebamk2_description' build argument 'cmake_args' from command line to 'None'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'ebamk2_description' build argument 'cmake_target' from command line to 'None'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'ebamk2_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'ebamk2_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'ebamk2_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'ebamk2_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'ebamk2_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'ebamk2_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.408s] Level 5:colcon.colcon_core.verb:set package 'ebamk2_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.408s] DEBUG:colcon.colcon_core.verb:Building package 'ebamk2_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/denmann99/ros2_workspace/build/ebamk2_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/denmann99/ros2_workspace/install/ebamk2_description', 'merge_install': False, 'path': '/home/denmann99/ros2_workspace/ebamk2_description', 'symlink_install': False, 'test_result_base': None}
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'cmake_args' from command line to 'None'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'cmake_target' from command line to 'None'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'gazebo_ros2_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.409s] DEBUG:colcon.colcon_core.verb:Building package 'gazebo_ros2_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/denmann99/ros2_workspace/build/gazebo_ros2_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/denmann99/ros2_workspace/install/gazebo_ros2_control', 'merge_install': False, 'path': '/home/denmann99/ros2_workspace/src/gazebo_ros2_control', 'symlink_install': False, 'test_result_base': None}
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'ebamk2_moveit_config' build argument 'cmake_args' from command line to 'None'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'ebamk2_moveit_config' build argument 'cmake_target' from command line to 'None'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'ebamk2_moveit_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'ebamk2_moveit_config' build argument 'cmake_clean_cache' from command line to 'False'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'ebamk2_moveit_config' build argument 'cmake_clean_first' from command line to 'False'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'ebamk2_moveit_config' build argument 'cmake_force_configure' from command line to 'False'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'ebamk2_moveit_config' build argument 'ament_cmake_args' from command line to 'None'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'ebamk2_moveit_config' build argument 'catkin_cmake_args' from command line to 'None'
+[0.410s] Level 5:colcon.colcon_core.verb:set package 'ebamk2_moveit_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.410s] DEBUG:colcon.colcon_core.verb:Building package 'ebamk2_moveit_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/denmann99/ros2_workspace/build/ebamk2_moveit_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/denmann99/ros2_workspace/install/ebamk2_moveit_config', 'merge_install': False, 'path': '/home/denmann99/ros2_workspace/ebamk2_moveit_config', 'symlink_install': False, 'test_result_base': None}
+[0.411s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.413s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.413s] INFO:colcon.colcon_ros.task.catkin.build:Building ROS package in '/home/denmann99/ros2_workspace/ebamk2_description' with build type 'catkin'
+[0.414s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/denmann99/ros2_workspace/ebamk2_description'
+[0.419s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.419s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.419s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.421s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/denmann99/ros2_workspace/src/gazebo_ros2_control' with build type 'ament_cmake'
+[0.421s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/denmann99/ros2_workspace/src/gazebo_ros2_control'
+[0.422s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.422s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.427s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/denmann99/ros2_workspace/build/ebamk2_description': CONDA_PROMPT_MODIFIER=(base) _=/usr/bin/env /home/denmann99/.local/bin/cmake /home/denmann99/ros2_workspace/ebamk2_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/denmann99/ros2_workspace/install/ebamk2_description
+[0.432s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/denmann99/ros2_workspace/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) _=/usr/bin/env /home/denmann99/.local/bin/cmake --build /home/denmann99/ros2_workspace/build/gazebo_ros2_control -- -j12 -l12
+[0.478s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/denmann99/ros2_workspace/build/gazebo_ros2_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) _=/usr/bin/env /home/denmann99/.local/bin/cmake --build /home/denmann99/ros2_workspace/build/gazebo_ros2_control -- -j12 -l12
+[0.528s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/denmann99/ros2_workspace/build/gazebo_ros2_control': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) _=/usr/bin/env /home/denmann99/.local/bin/cmake --install /home/denmann99/ros2_workspace/build/gazebo_ros2_control
+[0.551s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_ros2_control)
+[0.551s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/denmann99/ros2_workspace/build/gazebo_ros2_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) _=/usr/bin/env /home/denmann99/.local/bin/cmake --install /home/denmann99/ros2_workspace/build/gazebo_ros2_control
+[0.557s] Level 1:colcon.colcon_core.environment:checking '/home/denmann99/ros2_workspace/install/gazebo_ros2_control' for CMake module files
+[0.558s] Level 1:colcon.colcon_core.environment:checking '/home/denmann99/ros2_workspace/install/gazebo_ros2_control' for CMake config files
+[0.558s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_ros2_control', 'cmake_prefix_path')
+[0.559s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denmann99/ros2_workspace/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/cmake_prefix_path.ps1'
+[0.560s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/denmann99/ros2_workspace/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/cmake_prefix_path.dsv'
+[0.560s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denmann99/ros2_workspace/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/cmake_prefix_path.sh'
+[0.561s] Level 1:colcon.colcon_core.environment:checking '/home/denmann99/ros2_workspace/install/gazebo_ros2_control/bin'
+[0.561s] Level 1:colcon.colcon_core.environment:checking '/home/denmann99/ros2_workspace/install/gazebo_ros2_control/lib/pkgconfig/gazebo_ros2_control.pc'
+[0.561s] Level 1:colcon.colcon_core.environment:checking '/home/denmann99/ros2_workspace/install/gazebo_ros2_control/lib/python3.10/site-packages'
+[0.561s] Level 1:colcon.colcon_core.environment:checking '/home/denmann99/ros2_workspace/install/gazebo_ros2_control/bin'
+[0.562s] INFO:colcon.colcon_core.shell:Creating package script '/home/denmann99/ros2_workspace/install/gazebo_ros2_control/share/gazebo_ros2_control/package.ps1'
+[0.562s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/denmann99/ros2_workspace/install/gazebo_ros2_control/share/gazebo_ros2_control/package.dsv'
+[0.563s] INFO:colcon.colcon_core.shell:Creating package script '/home/denmann99/ros2_workspace/install/gazebo_ros2_control/share/gazebo_ros2_control/package.sh'
+[0.563s] INFO:colcon.colcon_core.shell:Creating package script '/home/denmann99/ros2_workspace/install/gazebo_ros2_control/share/gazebo_ros2_control/package.bash'
+[0.564s] INFO:colcon.colcon_core.shell:Creating package script '/home/denmann99/ros2_workspace/install/gazebo_ros2_control/share/gazebo_ros2_control/package.zsh'
+[0.565s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/denmann99/ros2_workspace/install/gazebo_ros2_control/share/colcon-core/packages/gazebo_ros2_control)
+[0.594s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gazebo_ros2_control)
+[0.596s] Level 1:colcon.colcon_core.environment:checking '/home/denmann99/ros2_workspace/install/gazebo_ros2_control' for CMake module files
+[0.596s] Level 1:colcon.colcon_core.environment:checking '/home/denmann99/ros2_workspace/install/gazebo_ros2_control' for CMake config files
+[0.596s] Level 1:colcon.colcon_core.shell:create_environment_hook('gazebo_ros2_control', 'cmake_prefix_path')
+[0.597s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denmann99/ros2_workspace/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/cmake_prefix_path.ps1'
+[0.597s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/denmann99/ros2_workspace/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/cmake_prefix_path.dsv'
+[0.597s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/denmann99/ros2_workspace/install/gazebo_ros2_control/share/gazebo_ros2_control/hook/cmake_prefix_path.sh'
+[0.598s] Level 1:colcon.colcon_core.environment:checking '/home/denmann99/ros2_workspace/install/gazebo_ros2_control/bin'
+[0.598s] Level 1:colcon.colcon_core.environment:checking '/home/denmann99/ros2_workspace/install/gazebo_ros2_control/lib/pkgconfig/gazebo_ros2_control.pc'
+[0.598s] Level 1:colcon.colcon_core.environment:checking '/home/denmann99/ros2_workspace/install/gazebo_ros2_control/lib/python3.10/site-packages'
+[0.598s] Level 1:colcon.colcon_core.environment:checking '/home/denmann99/ros2_workspace/install/gazebo_ros2_control/bin'
+[0.599s] INFO:colcon.colcon_core.shell:Creating package script '/home/denmann99/ros2_workspace/install/gazebo_ros2_control/share/gazebo_ros2_control/package.ps1'
+[0.599s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/denmann99/ros2_workspace/install/gazebo_ros2_control/share/gazebo_ros2_control/package.dsv'
+[0.600s] INFO:colcon.colcon_core.shell:Creating package script '/home/denmann99/ros2_workspace/install/gazebo_ros2_control/share/gazebo_ros2_control/package.sh'
+[0.600s] INFO:colcon.colcon_core.shell:Creating package script '/home/denmann99/ros2_workspace/install/gazebo_ros2_control/share/gazebo_ros2_control/package.bash'
+[0.600s] INFO:colcon.colcon_core.shell:Creating package script '/home/denmann99/ros2_workspace/install/gazebo_ros2_control/share/gazebo_ros2_control/package.zsh'
+[0.600s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/denmann99/ros2_workspace/install/gazebo_ros2_control/share/colcon-core/packages/gazebo_ros2_control)
+[0.759s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/denmann99/ros2_workspace/build/ebamk2_description' returned '1': CONDA_PROMPT_MODIFIER=(base) _=/usr/bin/env /home/denmann99/.local/bin/cmake /home/denmann99/ros2_workspace/ebamk2_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/denmann99/ros2_workspace/install/ebamk2_description
+[0.779s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ebamk2_description)
+[0.781s] Level 1:colcon.colcon_core.environment:checking '/home/denmann99/ros2_workspace/install/ebamk2_description' for CMake module files
+[0.781s] Level 1:colcon.colcon_core.environment:checking '/home/denmann99/ros2_workspace/install/ebamk2_description' for CMake config files
+[0.781s] Level 1:colcon.colcon_core.environment:checking '/home/denmann99/ros2_workspace/install/ebamk2_description/bin'
+[0.781s] Level 1:colcon.colcon_core.environment:checking '/home/denmann99/ros2_workspace/install/ebamk2_description/lib/pkgconfig/ebamk2_description.pc'
+[0.781s] Level 1:colcon.colcon_core.environment:checking '/home/denmann99/ros2_workspace/install/ebamk2_description/lib/python3.10/site-packages'
+[0.782s] Level 1:colcon.colcon_core.environment:checking '/home/denmann99/ros2_workspace/install/ebamk2_description/bin'
+[0.783s] INFO:colcon.colcon_core.shell:Creating package script '/home/denmann99/ros2_workspace/install/ebamk2_description/share/ebamk2_description/package.ps1'
+[0.783s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/denmann99/ros2_workspace/install/ebamk2_description/share/ebamk2_description/package.dsv'
+[0.783s] INFO:colcon.colcon_core.shell:Creating package script '/home/denmann99/ros2_workspace/install/ebamk2_description/share/ebamk2_description/package.sh'
+[0.783s] INFO:colcon.colcon_core.shell:Creating package script '/home/denmann99/ros2_workspace/install/ebamk2_description/share/ebamk2_description/package.bash'
+[0.784s] INFO:colcon.colcon_core.shell:Creating package script '/home/denmann99/ros2_workspace/install/ebamk2_description/share/ebamk2_description/package.zsh'
+[0.784s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/denmann99/ros2_workspace/install/ebamk2_description/share/colcon-core/packages/ebamk2_description)
+[0.794s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.794s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.794s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[0.794s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.803s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.803s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.803s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.813s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.814s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/denmann99/ros2_workspace/install/local_setup.ps1'
+[0.815s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/denmann99/ros2_workspace/install/_local_setup_util_ps1.py'
+[0.816s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/denmann99/ros2_workspace/install/setup.ps1'
+[0.817s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/denmann99/ros2_workspace/install/local_setup.sh'
+[0.817s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/denmann99/ros2_workspace/install/_local_setup_util_sh.py'
+[0.818s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/denmann99/ros2_workspace/install/setup.sh'
+[0.819s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/denmann99/ros2_workspace/install/local_setup.bash'
+[0.819s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/denmann99/ros2_workspace/install/setup.bash'
+[0.820s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/denmann99/ros2_workspace/install/local_setup.zsh'
+[0.821s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/denmann99/ros2_workspace/install/setup.zsh'
